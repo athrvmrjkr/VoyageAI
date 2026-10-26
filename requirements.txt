@@ -1,0 +1,43 @@
+
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+langchain-experimental
+
+# Select the integrations your project actually uses
+langchain-google-genai
+langchain-google-community[places]
+langchain_tavily
+langchain_groq
+langchain_openai
+
+# Agent orchestration
+langgraph
+langgraph-checkpoint
+
+# frontend
+streamlit
+
+# API backend and validation
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-multipart
+
+# Configuration and HTTP
+python-dotenv
+httpx
+requests
+
+# Testing and code quality
+pytest
+pytest-cov
+ruff
+
+
+# for executable file that is setup.py
+# treats my entire project as an installable package
+
+-e . 
